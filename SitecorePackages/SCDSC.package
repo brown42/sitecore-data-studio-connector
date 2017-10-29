@@ -1,0 +1,89 @@
+<project site="scdsc.local" format="Zip Package" targetfilefolder="wwwroot">
+  <Metadata>
+    <metadata>
+      <PackageName>Sitecore Data Studio Connector</PackageName>
+      <Author>NGOTB</Author>
+      <Version>1.0.0</Version>
+      <Revision />
+      <License>MS-PL</License>
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher>NGOTB</Publisher>
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/templates/Data Studio Connector/{723E4F88-65EF-4C6C-A9AF-4C614F9E4E66}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Studio Connector/Data Set/{A9C17B31-0786-42FB-8E6D-96CA53B0BCB6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Studio Connector/Data Studio Connector/{FB7D9B5D-7847-41DD-921D-F00C85B11EE8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Studio Connector/Data Set/__Standard Values/{ABCD8653-16E5-4504-8FD1-D2A36A9FB0B5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Studio Connector/Data Set/Data Set/{0BB48A50-B38E-4171-8F6F-1268E47F842C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Studio Connector/Data Set/Data Set/Time Resolution/{90E6A862-254F-4E00-9156-E972485CE677}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Studio Connector/Data Set/Data Set/Max Keys Per Segment/{433A293C-E96D-40AD-89D2-0C60FA8011CC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Studio Connector/Data Set/Data Set/Segments/{4B26D955-59AF-4564-80F3-098A008C6630}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Studio Connector/Data Set/Data Set/Schema Type/{9C696426-341B-4DD5-A820-0620AB559B37}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Studio Connector/Data Studio Connector/API Configuration/{EBE70219-AD97-4E8E-8086-0A1C6D2C3519}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Studio Connector/Data Studio Connector/__Standard Values/{7D437045-04C4-4286-9C46-10FC25867796}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Studio Connector/Data Studio Connector/API Configuration/Enabled/{02BE49F0-F494-4498-814D-F1F94F95517B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Studio Connector/Data Studio Connector/API Configuration/API Key/{6FD83E8D-0A72-400D-9B24-4454CD2C368E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Studio Connector/Data Studio Connector/API Configuration/Allow Empty API Key/{27D46EEB-8BCC-409C-BC4E-A0290788320B}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Items</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/App_Config/Include/SCDSC.config</x-item>
+        <x-item>/bin/SCDSC.dll</x-item>
+        <x-item>/bin/SCDSC.pdb</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root />
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Files</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
